@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        HamburgKing king = new HamburgKing(new SimpleFactory());
+        HamburgStore king = new HamburgStore(new SimpleFactory());
         king.orderHamburg("bacon");
     }
 }

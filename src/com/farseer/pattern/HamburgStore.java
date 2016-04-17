@@ -5,13 +5,13 @@ import com.farseer.pattern.hamburg.Hamburg;
 
 /**
  * Created by zhaosc on 16/4/12.
- * 汉堡王
+ * 汉堡店
  */
-public class HamburgKing {
+public class HamburgStore {
 
     private SimpleFactory simpleFactory;
 
-    public HamburgKing(SimpleFactory simpleFactory) {
+    public HamburgStore(SimpleFactory simpleFactory) {
         this.simpleFactory = simpleFactory;
     }
 
